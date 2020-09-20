@@ -6,11 +6,19 @@ const handleMenuClick = () => {
   const menuDiv = document.getElementById("menu-div");
   menuDiv.addEventListener("click", () => {
     changeHamburger();
-    changeMenuList();
+    showMenuList();
+    slideHeader();
   });
 };
 
-const changeMenuList = () => {
+const slideMenuItem = () => {};
+
+const slideHeader = () => {
+  const header = document.getElementById("header");
+  header.classList.toggle("active");
+};
+
+const showMenuList = () => {
   const menuList = document.getElementById("menu-list");
   menuList.classList.toggle("active");
 };

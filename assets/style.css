@@ -10,6 +10,7 @@ nav {
 
 .navbar {
   display: flex;
+  flex-grow: 1;
 }
 
 .name-div {
@@ -92,13 +93,41 @@ nav {
   overflow-y: hidden;
   width: 100%;
   height: 0px;
-  background: #d2d2d2d2;
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.3s;
 }
 
 .menu-list.active {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 220px;
+  transition: ease-in-out 0.3s;
+}
+
+.menu-list a {
+  padding: 20px 0px 20px 18px;
+  text-decoration: none;
+  display: block;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #2e2e2e;
+  transition: 0.4s;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.header {
   width: 100%;
   height: 300px;
-  background: #d2d2d2d2;
-  transition: ease-in-out 0.2s;
+  background-color: #f5f8fa;
+  transition: ease-in-out 0.3s;
+}
+
+.header.active {
+  margin-top: 169px;
+  width: 100%;
+  height: 400px;
+  background-color: #f5f8fa;
+  transition: ease-in-out 0.3s;
 }
