@@ -267,8 +267,7 @@ nav {
 
 .footer {
   display: flex;
-  height: 28px;
-  padding: 18px;
+  padding: 18px 0 18px 24px;
 }
 
 .footer span {
@@ -281,4 +280,9 @@ nav {
   color: #aaa;
   padding-left: 3px;
   margin: 0;
+}
+
+span:hover {
+  color: #037ba7;
+  transition: ease-in-out 0.3s;
 }
