@@ -42,6 +42,10 @@ nav {
   cursor: pointer;
 }
 
+.menu-list-lg {
+  display: none;
+}
+
 .first {
   height: 4px;
   width: 25px;
@@ -230,7 +234,6 @@ nav {
 .contact-div {
   margin-right: auto;
   margin-top: 40px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   padding-bottom: 18px;
 }
 
@@ -272,6 +275,7 @@ nav {
 .footer {
   display: flex;
   padding: 18px 0 18px 24px;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .footer span {
@@ -295,7 +299,6 @@ span:hover {
 @media (min-width: 640px) {
   .about-contact-container {
     display: flex;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   }
 
   .contact-div {
@@ -315,5 +318,36 @@ span:hover {
 
   .contact-img {
     padding: 0;
+  }
+}
+
+@media (min-width: 680px) {
+  .about-contact-container {
+    max-width: 608px;
+    margin: auto;
+  }
+
+  .card-text-div {
+    max-width: 608px;
+    margin: auto;
+  }
+
+  .menu-div {
+    display: none;
+  }
+
+  .menu-list-lg {
+    display: flex;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin-left: auto;
+  }
+  .menu-list-lg a {
+    text-decoration: none;
+    color: #2e2e2e;
+    margin: 24px 24px;
   }
 }
