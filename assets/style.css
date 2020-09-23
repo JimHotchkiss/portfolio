@@ -36,7 +36,8 @@ nav {
   flex-direction: column;
   width: 50px;
   height: 50px;
-  margin-left: 100px;
+  margin-left: auto;
+  /* margin-left: 100px; */
   margin-top: 16px;
   cursor: pointer;
 }
@@ -201,6 +202,7 @@ nav {
 }
 
 .about-title {
+  width: 200px;
   margin-top: 40px;
   margin-left: 24px;
 }
@@ -215,6 +217,7 @@ nav {
 
 .about-body {
   margin: 0;
+  padding: 0;
   font-family: "Merriweather", serif;
   font-size: 16px;
   font-weight: 100;
@@ -225,6 +228,7 @@ nav {
 }
 
 .contact-div {
+  margin-right: auto;
   margin-top: 40px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   padding-bottom: 18px;
@@ -285,4 +289,31 @@ nav {
 span:hover {
   color: #037ba7;
   transition: ease-in-out 0.3s;
+}
+
+/* Media Queries*/
+@media (min-width: 640px) {
+  .about-contact-container {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+
+  .contact-div {
+    margin-left: auto;
+    padding-right: 50px;
+    border-bottom: none;
+  }
+
+  .contact-title-text {
+    padding: 0;
+  }
+
+  .about-div {
+    width: auto;
+    padding: 0px 0px 24px 18px;
+  }
+
+  .contact-img {
+    padding: 0;
+  }
 }
