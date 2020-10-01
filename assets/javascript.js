@@ -1,5 +1,6 @@
 window.addEventListener("load", (event) => {
   handleMenuClick();
+  // handleMenuSelection();
 });
 
 const handleMenuClick = () => {

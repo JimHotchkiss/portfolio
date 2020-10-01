@@ -22,6 +22,11 @@ nav {
   padding-left: 18px;
 }
 
+.name-div a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
 .name-text {
   margin: 0;
   letter-spacing: 3px;
