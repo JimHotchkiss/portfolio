@@ -54,7 +54,7 @@ nav {
   color: #2e2e2e;
 }
 
-.about-menu-item {
+.about-menu-item-active {
   color: #0096cc;
 }
 
@@ -370,7 +370,6 @@ span:hover {
 
   .menu-list-lg a:hover {
     color: #0096cc;
-    transition: 0.4s;
   }
   .menu-list-lg a {
     text-decoration: none;
@@ -393,6 +392,6 @@ span:hover {
   }
 
   .about-menu-item {
-    color: #0096cc;
+    color: #2e2e2e;;
   }
 }
