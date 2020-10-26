@@ -367,13 +367,29 @@ span:hover {
     font-size: 12px;
     margin-left: auto;
   }
+
+  .menu-list-lg a:hover {
+    color: #0096cc;
+    transition: 0.4s;
+  }
   .menu-list-lg a {
     text-decoration: none;
+    /* margin: 24px 24px; */
+  }
+
+  .menu-item-div {
     margin: 24px 24px;
+    padding: 0 2px;
+    height: 20px;
+  }
+
+  .menu-item-div:hover  {
+    border-bottom: 3px solid #0096cc;
   }
 
   .menu-item {
     color: #2e2e2e;
+    
   }
 
   .about-menu-item {
