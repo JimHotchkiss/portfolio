@@ -27,6 +27,12 @@ nav {
   color: #2e2e2e;
 }
 
+.name-div a:hover{
+  cursor: pointer;
+  color:#0096cc;
+  transition: 0.3s;
+}
+
 .name-text {
   margin: 0;
   letter-spacing: 3px;
@@ -270,6 +276,12 @@ nav {
 
 .contact-name {
   margin-left: 14px;
+}
+
+.contact-name h5:hover{
+  cursor: pointer;
+  color: #0096cc;
+  transition: 0.3s;
 }
 
 .contact-img {
