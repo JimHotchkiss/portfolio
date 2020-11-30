@@ -355,6 +355,69 @@ span:hover {
   }
 }
 
+/* Project Card*/
+
+.project-card {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 64px;
+  margin-top: 64px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.project-title-text {
+  max-width: 40%;
+  margin:  0 auto;
+}
+
+.project-title {
+  font-family: "Open Sans", sans-serif;
+  color: #3a4145;
+  font-size: 28px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.github-url {
+  font-family: "Merriweather", serif;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 28px;
+  color: #037ba7;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.github-url:hover {
+  color: #2e2e2e;
+  transition: 0.3s;
+}
+
+.project-text {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 28px;
+  color: #2e2e2e;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+
+#gif {
+  border: 2px solid  #f5f8fa;
+  width: 500px;
+  height: 275px;
+  margin: auto;
+  background: transparent url("../img/lead-tracker.gif") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: 500px;
+}
+
+/* End Project Card*/
 
 
 @media (min-width: 680px) {
