@@ -60,7 +60,7 @@ nav {
   color: #2e2e2e;
 }
 
-.about-menu-item-active {
+.menu-item-active {
   color: #0096cc;
 }
 
@@ -219,7 +219,7 @@ nav {
 
 .card-text-span {
   font-family: "Merriweather", serif;
-  color: #0096cc;
+ 
   font-style: italic;
   font-size: 24px;
   letter-spacing: 2px;
@@ -227,6 +227,16 @@ nav {
   cursor: pointer;
 }
 
+.card-text-span a {
+  text-decoration: none;
+  color: #0096cc;
+  transition: 0.3s;
+}
+
+.card-text-span a:hover {
+  color: #3a4145;
+  transition: 0.3s;
+}
 .about-title {
   width: 200px;
   margin-top: 40px;
@@ -521,7 +531,7 @@ span:hover {
     
   }
 
-  .about-menu-item {
+  .menu-item {
     color: #2e2e2e;;
   }
 
