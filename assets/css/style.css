@@ -278,9 +278,15 @@ nav {
   margin-left: 14px;
 }
 
-.contact-name h5:hover{
+.contact-name a:hover{
   cursor: pointer;
   color: #0096cc;
+  transition: 0.3s;
+}
+
+.contact-name a {
+  text-decoration: none;
+  color: #000;
   transition: 0.3s;
 }
 
