@@ -169,7 +169,7 @@ nav {
 }
 
 .about-about-div {
-  min-height: 50vh;
+  min-height: 23.5vh;
 }
 
 .card-title-divs {
@@ -267,11 +267,47 @@ nav {
   padding: 0 24px 0 24px;
 }
 
+.contact-body {
+  min-height: 48vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 28px;
+  color: #2e2e2e;
+  letter-spacing: 2px;
+  padding: 0 24px 0 24px;
+}
+
 .contact-div {
   margin-right: auto;
   margin-top: 40px;
   padding-bottom: 18px;
 }
+
+.contact-topic-div {
+  display: flex;
+}
+
+.contact-icon {
+  padding-top: 16px;
+}
+
+#contact-page-linkedin h5{
+  margin-top: 12px;
+}
+
+.contact-topic-text {
+display: flex;
+margin-left: 8px;
+}
+
+.contact-topic-text p{
+  margin-left: 8px;
+  }
+
+
 
 .contact-title-text {
   margin: 0;
@@ -613,10 +649,11 @@ span:hover {
   margin-bottom: 16px;
   }
 
-  .mobile-project-title-text{
-    /* padding: 0px 32px; */
+  .contact-body {
+    margin: auto;
+    max-width: 360px;
   }
-
+  
   .mobile-project-title-text a{
     line-height: 0;
   }
