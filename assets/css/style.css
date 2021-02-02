@@ -540,7 +540,6 @@ span:hover {
 
   .menu-list-lg {
     display: flex;
-    text-decoration: none;
     letter-spacing: 3px;
     font-weight: 700;
     font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
@@ -653,7 +652,7 @@ span:hover {
     margin: auto;
     max-width: 360px;
   }
-  
+
   .mobile-project-title-text a{
     line-height: 0;
   }
