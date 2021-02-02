@@ -487,7 +487,7 @@ span:hover {
   width: 500px;
   height: 270px;
   margin: auto;
-  background: transparent url("../img/vegan-cow.gif") 0% 0% no-repeat padding-box;
+  background: transparent url("../img/vegan-cow.png") 0% 0% no-repeat padding-box;
   opacity: 1;
   background-size: 500px;
 }
@@ -511,7 +511,7 @@ span:hover {
   width: 500px;
   height: 275px;
   margin: auto;
-  background: transparent url("../img/msa.gif") 0% 0% no-repeat padding-box;
+  background: transparent url("../img/msa.png") 0% 0% no-repeat padding-box;
   opacity: 1;
   background-size: 500px;
 }
@@ -610,7 +610,7 @@ span:hover {
     width: 320px;
     height: 182px;
     margin-bottom: 32px;
-    background: transparent url("../img/vegan-cow.gif") 0% 0% no-repeat padding-box;
+    background: transparent url("../img/vegan-cow.png") 0% 0% no-repeat padding-box;
     opacity: 1;
     background-size: 330px;
   }
@@ -621,7 +621,7 @@ span:hover {
     width: 320px;
     height: 182px;
     margin-bottom: 32px;
-    background: transparent url("../img/msa.gif") 0% 0% no-repeat padding-box;
+    background: transparent url("../img/msa.png") 0% 0% no-repeat padding-box;
     opacity: 1;
     background-size: 330px;
   }
