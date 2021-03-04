@@ -589,6 +589,10 @@ span:hover {
     display: none;
   }
 
+  #about-education {
+    margin-bottom: 16px;
+  }
+
   .project-card-mobile {
     display: flex;
     max-width: 85%;
