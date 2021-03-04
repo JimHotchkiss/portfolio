@@ -267,6 +267,10 @@ nav {
   padding: 0 24px 0 24px;
 }
 
+#about-education {
+  margin-bottom: -50px;
+}
+
 .contact-body {
   min-height: 48vh;
   margin: 0;
