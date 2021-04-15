@@ -362,6 +362,7 @@ margin-left: 8px;
 
 .footer {
   display: flex;
+  max-height: 60px;
   padding: 18px 0 18px 24px;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -446,11 +447,73 @@ span:hover {
   text-align: left;
 }
 
+
+
+.demo-div a {
+  display: inline-block;
+  font-family: "Merriweather", serif;
+  font-size: 12px;
+  font-weight: 100;
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-bottom: 16px;
+}
+
+.demo-div a:hover {
+  color: #037ba7;
+  transition: 0.3s;
+}
+
+.mobile-demo-div {
+  margin-bottom: 8px;
+}
+
+.mobile-demo-div a {
+  display: inline-block;
+  font-family: "Merriweather", serif;
+  font-size: 12px;
+  font-weight: 100;
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-bottom: 16px;
+}
+
+.mobile-demo-div a:hover {
+  color: #037ba7;
+  transition: 0.3s;
+}
+
+.git-url-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-url-div {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0px;
+}
+
+
+.mobile-github-url {
+  font-family: "Merriweather", serif;
+  font-size: 12px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  color: #037ba7;
+  letter-spacing: 2px;
+  text-decoration: none;
+
+  
+}
+
 .github-url {
   font-family: "Merriweather", serif;
   font-size: 12px;
   font-weight: 100;
-  line-height: 28px;
+  margin-bottom: 8px;
   color: #037ba7;
   letter-spacing: 2px;
   text-decoration: none;
@@ -504,11 +567,27 @@ span:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+#gif3 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  width: 500px;
+  height: 263px;
+  margin: auto;
+  background: transparent url("../img/project-manager.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: 500px;
+}
+
 #gif3:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+#gif4:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-#gif3 {
+#gif4 {
   /* border: 2px solid  #f5f8fa; */
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -528,26 +607,37 @@ span:hover {
   font-style: italic;
 }
 
+
+
 /* End Project Card*/
 
 /* Resume Div */
 .resume-div {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
-.resume-img {
-  margin: 0 auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
+.resume-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0px;
 }
 
-.resume-img {
+.resume-img img{
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-.resume-img:hover {
+.resume-img img:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.resume-img img {
+  height: auto;
+  width: 75%;
 }
 
 
@@ -601,12 +691,21 @@ span:hover {
   .menu-item {
     color: #2e2e2e;;
   }
+  .resume-img img {
+    height: auto;
+    width: 90%;
+  }
 
 }
 
-@media(max-width: 375px) {
+@media(max-width: 414px) {
   .project-card {
     display: none;
+  }
+
+  .resume-img img {
+    height: auto;
+    width: 90%;
   }
 
   #about-education {
@@ -648,6 +747,17 @@ span:hover {
   }
 
   #mobile-gif3 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    width: 320px;
+    height: 173px;
+    margin-bottom: 32px;
+    background: transparent url("../img/project-manager.png") 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: 330px;
+  }
+
+  #mobile-gif4 {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     width: 320px;
